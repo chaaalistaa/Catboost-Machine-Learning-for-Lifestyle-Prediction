@@ -58,3 +58,6 @@ In addition, marketers in the environment around UIN Jakarta can adjust products
 - Students can pay more attention to their financial management, which from the results of the study indicated that the greater cost of secondary expenses is the cause of the increasing lifestyle of UIN Jakarta students in the 2019-2022 batch.
 - Marketers can adjust prices based on average spending costs so that lifestyle segmentation and personalization of UIN Jakarta students can be carried out.
 - Based on the three features generated, namely UKT class, parent's occupation, and faculty from the research, it is found that the campus can predict the SES of its students according to the importance value of the features obtained.
+  
+
+Publication : https://repository.uinjkt.ac.id/dspace/handle/123456789/73329
