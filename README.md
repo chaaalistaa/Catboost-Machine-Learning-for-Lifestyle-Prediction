@@ -1,7 +1,7 @@
 # MLPrediction
 The highest internet users, namely the age group included in Generation Z (Gen Z), utilize their use to follow influencers on social media which can cause a trend in various circles. The development of these trends causes consumptive behavior for its followers. Students as part of Gen Z who are dominated by those whose source of income is from parents have different consumptive levels in following trends to fulfill the lifestyle in the surrounding environment. The lifestyle followed depends on the socioeconomic status (SES) category assessed by the cost of regular monthly expenses. Therefore, in this research, machine learning techniques, namely supervised learning predict the lifestyle of students by learning the features used and classifying based on the class, namely SES. Prediction with the CatBoost algorithm is used to determine the level of prediction accuracy and influencing factors based on the input data given.
 
-#**Method**
+# **Method**
 **A.	Research Approach**
 This research uses quantitative research methods. The analysis model uses CatBoost and is contained in performance metrics consisting of 5 parts, namely confusion matrix, accuracy, precision & recall, f1 score, and area under ROC curve (AUC). Information collection is done with SES data of UIN Jakarta students obtained through online questionnaire distribution.  
 
@@ -17,7 +17,7 @@ Machine learning model training is the process where the CatBoost algorithm is g
 **E.	Evaluation Metrics**
 After training the model, it can evaluate its performance on testing data and can see what features are most influential by representing them in performance metrics including confusion matrix, accuracy, precision & recall, f1 score, and area under roc curve (AUC).  
 
-#**Result**
+# **Result**
 **A.	CatBoost Modeling Results**
   The resulting "Best Test" value of the CatBoost modeling is 0.7495. The "Best Test" value indicates the best performance achieved by the CatBoost model on certain evaluation metrics during the training process. The evaluation metrics consist of accuracy, F1-score, precision & recall, confusion matrix, and AUC. 
 The results of the "Best Iteration" value of the CatBoost modeling created show the iterations or rounds during training with the best performance at the 188th iteration. In gradient boosting, the algorithm iteratively adds weak testing data (usually decision trees) to the model, with each new testing data to correct previous errors.  
@@ -46,5 +46,10 @@ Based on the prediction results of the lifestyle of UIN Jakarta students accordi
 Social class which is an external factor of this lifestyle is influenced by the economic level and consumption patterns of UIN Jakarta students according to their respective SES levels. This statement is also supported by [24] who revealed that consumption patterns and choices in using their time and money affect their lifestyle. Therefore, the results of this study can be used as financial literacy material for UIN Jakarta students to better manage their expenses by minimizing the purchase of products that do not meet their needs by prioritizing the desire to follow trends.  
 In addition, marketers in the environment around UIN Jakarta can adjust products based on the personalization of UIN Jakarta students according to the economic level of the desired target market. The results of this study are also in line with the results of research [8] which states that the cost of household consumption expenditure to meet the needs of life has shifted 
 
-#**Conclusion and Recommedation**
-
+# **Conclusion and Recommendation**
+- SES categories using CatBoost algorithm modeling with 85.94% accuracy. CatBoost modeling accurately predicts 4 SES classes namely SES A, SES B, SES C1 with a fairly high level of precision and recall based on F1-score and SES C2 which is quite low. The Area Under the ROC Curve (AUC) as a model performance evaluation metric provided excellent classification results by obtaining values for SES A (0.95), SES B (0.95), SES C1 (0.94), and SES C2 (0.99). 
+- Based on the level of importance, the UKT class, parent's occupation, and faculty with the highest level of importance when predicting the SES category from 14 features that have been determined based on the results of the correlation with the SES score. 5. This study succeeded in knowing the factors that influence the increasing lifestyle of UIN Jakarta students in the class of 2019-2022 based on the results of SES prediction using CatBoost algorithm modeling. 
+- It is known that the cost of expenditure that affects the increasing lifestyle of UIN Jakarta students in the 2019-2022 batch is the cost of spending on entertainment whose expenditure depends on the level of each SES category. Students can suppress excessive consumptive power according to their level of economic ability by minimizing the purchase of goods or services by not always following trends that are carried out only to fulfill desires without thinking about the importance of the function of the goods purchased in the long term.
+- Students can pay more attention to their financial management, which from the results of the study indicated that the greater cost of secondary expenses is the cause of the increasing lifestyle of UIN Jakarta students in the 2019-2022 batch.
+- Marketers can adjust prices based on average spending costs so that lifestyle segmentation and personalization of UIN Jakarta students can be carried out.
+- Based on the three features generated, namely UKT class, parent's occupation, and faculty from the research, it is found that the campus can predict the SES of its students according to the importance value of the features obtained.
