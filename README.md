@@ -33,6 +33,7 @@ The accuracy results of SES using CatBoost modeling obtained an accuracy value f
 **D.	Precision, Recall, & F1 Score**
 The following are the results of the CatBoost modeling training data in the precision, recall, and F1-score matrices contained.
 <img width="181" alt="{107C7E8E-8F3E-46C9-B49D-3C9979350B9F}" src="https://github.com/user-attachments/assets/fb5fb50b-2762-4ada-b12a-664e91992ab3">
+
 Precision is when the model predicts a data sample from each class and the result shows the proportion of positive predictions or the condition that the prediction result is correct and the reality is correct (TP). The recall is based on all data instances that are actually positive or belong to each class that correctly predicts a positive prediction out of the total positives. The F1-score is the harmonic mean of precision and recall by combining both measures into one score or F1-score for each class. Support is the number of examples in the data set that belong to each class. 
 
 **E.	Confusion Matrix**
@@ -42,6 +43,7 @@ Interpreting model performance using a confusion matrix in understanding how wel
 **F.	Area Under ROC Curve (AUC)**
 Area Under ROC Curve (AUC) in Figure 4. shows the results of CatBoost modeling as part of the model performance evaluation metric used based on the class contained in the overall data, which is divided into 4 classes that have a very good classification with a value above 0.90 in each class.
 ![image](https://github.com/user-attachments/assets/93165e7d-3c60-466e-aff0-10b1f64a887a)
+
 Based on the prediction results of the lifestyle of UIN Jakarta students according to their SES category, using the CatBoost algorithm, it is known that the UKT class greatly determines the lifestyle of each UIN Jakarta student based on the level of each student's SES category. This can also prove that the UKT class obtained by each UIN Jakarta student is in accordance with their economic capabilities.  
 Social class which is an external factor of this lifestyle is influenced by the economic level and consumption patterns of UIN Jakarta students according to their respective SES levels. This statement is also supported by [24] who revealed that consumption patterns and choices in using their time and money affect their lifestyle. Therefore, the results of this study can be used as financial literacy material for UIN Jakarta students to better manage their expenses by minimizing the purchase of products that do not meet their needs by prioritizing the desire to follow trends.  
 In addition, marketers in the environment around UIN Jakarta can adjust products based on the personalization of UIN Jakarta students according to the economic level of the desired target market. The results of this study are also in line with the results of research [8] which states that the cost of household consumption expenditure to meet the needs of life has shifted 
